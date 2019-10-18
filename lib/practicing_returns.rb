@@ -1,4 +1,4 @@
-require 'pry'
+#require 'pry'
 
 def hello(array)
   i = 0
@@ -11,4 +11,4 @@ def hello(array)
 end
 
 #binding.pry
-#hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
+hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
